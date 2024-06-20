@@ -6,7 +6,7 @@ import {series} from './configs/series'
 import { password } from "./configs/password";
 import { navbar } from "./configs/navbar";
 import { bulletin } from "./configs/bulletin";
-import { commentConfig } from "./configs/valine";
+import { commentConfig } from "./configs/waline";
 
 export default defineUserConfig({
   title: "zhm-reco",
@@ -18,7 +18,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "HaoxueAllen",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    docsRepo: "https://github.com/haoxueallen/zhm-reco",
     repo: 'haoxueallen/zhm-reco',
     docsBranch: "main",
     docsDir: "/",
