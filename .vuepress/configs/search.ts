@@ -1,8 +1,8 @@
 export const algolia ={
-    appId: 'EBFE72606F',
-    apiKey: '28e6534c31dc7a89fbc31efd79938a30',
-    indexName: '中医',
-    inputSelector: '中医',
+    appId: '8H3S54WWO8',
+    apiKey: '97d20eb1819efcf9f31ca8fef744a426',
+    indexName: 'zhm-reco',
+    // inputSelector: 'div',
     algoliaOptions: { 'facetFilters': ["lang:$LANG"] },
     debug: false
 }

@@ -6,7 +6,7 @@ import {series} from './configs/series'
 import { password } from "./configs/password";
 import { navbar } from "./configs/navbar";
 import { bulletin } from "./configs/bulletin";
-import { commentConfig } from "./configs/giscus";
+import { commentConfig } from "./configs/valine";
 import {commentsPlugin} from "@vuepress-reco/vuepress-plugin-comments"
 import { algolia } from "./configs/search";
 
@@ -25,7 +25,7 @@ export default defineUserConfig({
     docsBranch: "master",
     docsDir: "/",
     lastUpdatedText: "",
-    algolia,
+    algolia: algolia,
     // password: password,
     // autoSetSeries: true,
     series: series,
