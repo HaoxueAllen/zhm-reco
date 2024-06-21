@@ -18,9 +18,9 @@ bannerBrand:
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/haoxueallen' }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+# isShowTitleInHome: true
+# actionText: About
+# actionLink: /views/other/about
 ---
 
 ## 快速开始

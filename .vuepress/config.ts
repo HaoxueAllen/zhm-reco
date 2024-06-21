@@ -8,6 +8,7 @@ import { navbar } from "./configs/navbar";
 import { bulletin } from "./configs/bulletin";
 import { commentConfig } from "./configs/giscus";
 import {commentsPlugin} from "@vuepress-reco/vuepress-plugin-comments"
+import { algolia } from "./configs/search";
 
 export default defineUserConfig({
   title: "zhm-reco",
@@ -21,19 +22,20 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     docsRepo: "https://github.com/haoxueallen/zhm-reco",
     repo: 'haoxueallen/zhm-reco',
-    docsBranch: "main",
+    docsBranch: "master",
     docsDir: "/",
     lastUpdatedText: "",
+    algolia,
     // password: password,
     // autoSetSeries: true,
     series: series,
     navbar: navbar,
     bulletin: bulletin,
-    commentConfig:commentConfig,
+    commentConfig: commentConfig,
   }),
 
   // plugins: [
   //   commentsPlugin,
   // ],
-  debug: true,
+  // debug: true,
 });

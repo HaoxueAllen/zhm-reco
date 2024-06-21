@@ -1,5 +1,5 @@
 export const series = {
-    "/医学/中医/黄帝内经/": [
+    "/blogs/中医/黄帝内经/": [
         { 
             text: "黄帝内经",
             children: [
@@ -8,7 +8,7 @@ export const series = {
             ],
         },
     ],
-    "/医学/中医/伤寒论/":[
+    "/blogs/中医/伤寒论/":[
         { 
             text: "伤寒论",
             children: [

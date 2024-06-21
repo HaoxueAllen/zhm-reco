@@ -7,6 +7,6 @@ export const commentConfig = {
         categoryId: 'DIC_kwDOMMHxtM4CgPQH',
         mapping: 'title',
         theme:"noborder_dark",
-        hideComments: false, // 全局隐藏评论，默认 false
+        hideComments: true, // 全局隐藏评论，默认 false
     },
 }
