@@ -1,5 +1,5 @@
 export const commentConfig = {
-    type: 'waline',
+    type: 'valine',
     // options 与 1.x 的 valineConfig 配置一致
     options: {
         appId: 'WOBIfwCN0vWbbO3xL28GdpM3-MdYXbMMI',
