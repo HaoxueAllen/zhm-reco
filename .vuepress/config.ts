@@ -23,7 +23,7 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "/",
     lastUpdatedText: "",
-    password: password,
+    // password: password,
     // autoSetSeries: true,
     series: series,
     navbar: navbar,
